@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mianmalife/esBuild-app.git"
+    "url": "git@github.com:mianmalife/esBuild-app.git"
   },
   "keywords": [
     "esbuild"
