@@ -4965,11 +4965,14 @@
   var Server = __toESM(require_server_browser());
 
   // asset/image/duck.png
-  var duck_default = "./static/duck-MNGYU4WY.png";
+  var duck_default = "build/static/image/duck-MNGYU4WY.png";
+
+  // asset/image/favicon.svg
+  var favicon_default = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8Y2lyY2xlIGN4PSIxMDAiIGN5PSIxMDAiIHI9IjEwMCIgZmlsbD0iI0ZGQ0YwMCIvPgogIDxwYXRoIGQ9Ik00Ny41IDUyLjVMOTUgMTAwbC00Ny41IDQ3LjVtNjAtOTVMMTU1IDEwMGwtNDcuNSA0Ny41IiBmaWxsPSJub25lIiBzdHJva2U9IiMxOTE5MTkiIHN0cm9rZS13aWR0aD0iMjQiLz4KPC9zdmc+Cg==";
 
   // index.jsx
   var TagDiv = () => /* @__PURE__ */ React.createElement("div", null, "Hello esbuild!!", /* @__PURE__ */ React.createElement("img", {
-    src: "./asset/image/favicon.svg",
+    src: favicon_default,
     alt: ""
   }), /* @__PURE__ */ React.createElement("img", {
     src: duck_default,
@@ -4999,3 +5002,4 @@ object-assign
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+//# sourceMappingURL=build/index.js.map

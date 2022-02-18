@@ -1,10 +1,13 @@
 import * as React from 'react'
 import * as Server from 'react-dom/server'
+// @ts-ignore
 import duck from './asset/image/duck.png'
+// @ts-ignore
+import esbuildFav from './asset/image/favicon.svg'
 
 const TagDiv = () => <div>
   Hello esbuild!!
-  <img src="./asset/image/favicon.svg" alt="" />
+  <img src={esbuildFav} alt="" />
   <img src={duck} alt="" />
 </div>
 
